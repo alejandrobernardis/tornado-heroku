@@ -1,0 +1,10 @@
+{
+  "name": "tornado-heroku",
+  "description": "A Tornado server skeleton for Heroku platform.",
+  "repository": "https://github.com/alejandrobernardis/tornado-heroku",
+  "keywords": ["python", "tornado"],
+  "success_url": "/",
+  "env": {
+      "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-python"
+  }
+}
